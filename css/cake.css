@@ -1,0 +1,89 @@
+#container{
+    width: 1200px;
+    height: 1680px;
+    background-color: white;
+    margin: auto;
+    padding: 1px;
+}
+
+section{
+    width: 1200px;
+    height: 1180px;
+}
+
+#smallimages1,#smallimages2,#smallimages3,#smallimages4,#smallimages5,#smallimages6{
+    width: 320px;
+    height: 230px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.s1,.s4{
+    margin-left: 120px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E94D40;
+    margin-bottom: 5px;  
+    margin-top: 20px; 
+    }
+    
+#p1{
+    margin-left: 120px;
+    color: #0C243C;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 120px;
+    width: 960px;
+    text-align: left;
+    padding: 15px;
+}
+th{
+    background-color: #0C243C;
+    color: white;
+}
+tr{
+    height: 40px;
+}  
+tr:nth-child(odd) {
+    background-color: #D6EEEE;
+}
+
+label{
+        margin-bottom: 20px;
+        font-weight: bold;
+        display: inline-block;
+        width: 100px;
+        text-align: left;
+    }
+
+input,textarea {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+form{
+    margin-left: 120px;  
+    margin-top: 20px; 
+    border: 2px solid goldenrod;
+    width: 400px;
+    height: 310px;
+    padding-left: 10px;
+}
+
+button {
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}

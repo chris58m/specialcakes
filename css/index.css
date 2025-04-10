@@ -1,0 +1,25 @@
+div{
+    width: 1200px;
+    height: 1620px;
+    background-color: white;
+    margin: auto;
+    padding: 1px;
+}
+
+section{
+    width: 1200px;
+    height: 1120px;
+
+}
+
+.homeimage{
+    width: 975px;
+    height: 750px;
+    margin-left: 112.5px;
+    margin-top: 10px;
+}
+
+p{
+    margin-left: 120px;
+    color: #0C243C;
+}
